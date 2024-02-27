@@ -10,4 +10,5 @@ sarltrain_ppo: The training code for a single task. It can be used to learn from
 metatrain_ppo_test: The code for meta training.
 
 The whole process:
-1. Run the metatrain_ppo_test.py to obtain the meta parameters, 2. Use the meta parameters as the initialization to adapt them to the new environment.
+1. Run the metatrain_ppo_test.py to obtain the meta parameters.
+2. Use the meta parameters as the initialization to adapt to a new environment.
