@@ -8,3 +8,6 @@ Environment_marl: The environment of a single task for learning from scratch or 
 Environment_meta: The environment, of which the five key factors can be changed to generate different tasks.  
 sarltrain_ppo: The training code for a single task. It can be used to learn from scratch and fine-tune the meta parameters.  
 metatrain_ppo_test: The code for meta training.
+
+The whole process:
+1. Run the metatrain_ppo_test.py to obtain the meta parameters, 2. Use the meta parameters as the initialization to adapt them to the new environment.
